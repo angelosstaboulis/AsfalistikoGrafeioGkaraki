@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61F86D32A40F4F5003B5B93 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61F86D22A40F4F5003B5B93 /* AboutUs.swift */; };
+		D61F86D52A410942003B5B93 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61F86D42A410942003B5B93 /* MapView.swift */; };
+		D61F86D72A410B70003B5B93 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61F86D62A410B70003B5B93 /* ContactUs.swift */; };
+		D639EF732A406EBA00DA349F /* AsfalistikoGrafeioGkarakiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF722A406EBA00DA349F /* AsfalistikoGrafeioGkarakiApp.swift */; };
+		D639EF752A406EBA00DA349F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF742A406EBA00DA349F /* ContentView.swift */; };
+		D639EF772A406EBC00DA349F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D639EF762A406EBC00DA349F /* Assets.xcassets */; };
+		D639EF7A2A406EBC00DA349F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D639EF792A406EBC00DA349F /* Preview Assets.xcassets */; };
+		D639EF842A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF832A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.swift */; };
+		D639EF8E2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF8D2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.swift */; };
+		D639EF902A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF8F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift */; };
+		D639EF9D2A40738E00DA349F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF9C2A40738E00DA349F /* HomeView.swift */; };
+		D639EF9F2A40793F00DA349F /* SubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EF9E2A40793F00DA349F /* SubMenu.swift */; };
+		D639EFA22A407BBF00DA349F /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = D639EFA12A407BBF00DA349F /* Introspect */; };
+		D639EFA52A408B3B00DA349F /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EFA42A408B3B00DA349F /* SwiftUIWebView.swift */; };
+		D639EFA72A408C5500DA349F /* CheckInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EFA62A408C5500DA349F /* CheckInsurance.swift */; };
+		D639EFA92A408DAE00DA349F /* MyInteramerican.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EFA82A408DAE00DA349F /* MyInteramerican.swift */; };
+		D639EFAB2A408E6600DA349F /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639EFAA2A408E6600DA349F /* Companies.swift */; };
+		D679BCCC2A41B7EF008C767E /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679BCCB2A41B7EF008C767E /* Calculator.swift */; };
+		D679BCCE2A41CD02008C767E /* ExcelPMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679BCCD2A41CD02008C767E /* ExcelPMT.swift */; };
+		D68B35792A42FF5900C66018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68B35782A42FF5900C66018 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D639EF802A406EBC00DA349F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D639EF672A406EBA00DA349F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D639EF6E2A406EBA00DA349F;
+			remoteInfo = AsfalistikoGrafeioGkaraki;
+		};
+		D639EF8A2A406EBC00DA349F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D639EF672A406EBA00DA349F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D639EF6E2A406EBA00DA349F;
+			remoteInfo = AsfalistikoGrafeioGkaraki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61F86D22A40F4F5003B5B93 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		D61F86D42A410942003B5B93 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D61F86D62A410B70003B5B93 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
+		D639EF6F2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsfalistikoGrafeioGkaraki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D639EF722A406EBA00DA349F /* AsfalistikoGrafeioGkarakiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsfalistikoGrafeioGkarakiApp.swift; sourceTree = "<group>"; };
+		D639EF742A406EBA00DA349F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D639EF762A406EBC00DA349F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D639EF792A406EBC00DA349F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D639EF7F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsfalistikoGrafeioGkarakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D639EF832A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsfalistikoGrafeioGkarakiTests.swift; sourceTree = "<group>"; };
+		D639EF892A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsfalistikoGrafeioGkarakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D639EF8D2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsfalistikoGrafeioGkarakiUITests.swift; sourceTree = "<group>"; };
+		D639EF8F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D639EF9C2A40738E00DA349F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D639EF9E2A40793F00DA349F /* SubMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenu.swift; sourceTree = "<group>"; };
+		D639EFA42A408B3B00DA349F /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		D639EFA62A408C5500DA349F /* CheckInsurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInsurance.swift; sourceTree = "<group>"; };
+		D639EFA82A408DAE00DA349F /* MyInteramerican.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInteramerican.swift; sourceTree = "<group>"; };
+		D639EFAA2A408E6600DA349F /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
+		D679BCCB2A41B7EF008C767E /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		D679BCCD2A41CD02008C767E /* ExcelPMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelPMT.swift; sourceTree = "<group>"; };
+		D68B35782A42FF5900C66018 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D639EF6C2A406EBA00DA349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639EFA22A407BBF00DA349F /* Introspect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF7C2A406EBC00DA349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF862A406EBC00DA349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D639EF662A406EBA00DA349F = {
+			isa = PBXGroup;
+			children = (
+				D639EF712A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */,
+				D639EF822A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests */,
+				D639EF8C2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests */,
+				D639EF702A406EBA00DA349F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D639EF702A406EBA00DA349F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D639EF6F2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki.app */,
+				D639EF7F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.xctest */,
+				D639EF892A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D639EF712A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */ = {
+			isa = PBXGroup;
+			children = (
+				D639EFA32A408B1F00DA349F /* View */,
+				D639EF722A406EBA00DA349F /* AsfalistikoGrafeioGkarakiApp.swift */,
+				D639EF762A406EBC00DA349F /* Assets.xcassets */,
+				D639EF782A406EBC00DA349F /* Preview Content */,
+				D68B35782A42FF5900C66018 /* LaunchScreen.storyboard */,
+			);
+			path = AsfalistikoGrafeioGkaraki;
+			sourceTree = "<group>";
+		};
+		D639EF782A406EBC00DA349F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D639EF792A406EBC00DA349F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D639EF822A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D639EF832A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.swift */,
+			);
+			path = AsfalistikoGrafeioGkarakiTests;
+			sourceTree = "<group>";
+		};
+		D639EF8C2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D639EF8D2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.swift */,
+				D639EF8F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift */,
+			);
+			path = AsfalistikoGrafeioGkarakiUITests;
+			sourceTree = "<group>";
+		};
+		D639EFA32A408B1F00DA349F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D639EF9C2A40738E00DA349F /* HomeView.swift */,
+				D639EF742A406EBA00DA349F /* ContentView.swift */,
+				D639EF9E2A40793F00DA349F /* SubMenu.swift */,
+				D639EFA42A408B3B00DA349F /* SwiftUIWebView.swift */,
+				D639EFA62A408C5500DA349F /* CheckInsurance.swift */,
+				D639EFA82A408DAE00DA349F /* MyInteramerican.swift */,
+				D639EFAA2A408E6600DA349F /* Companies.swift */,
+				D61F86D22A40F4F5003B5B93 /* AboutUs.swift */,
+				D61F86D42A410942003B5B93 /* MapView.swift */,
+				D61F86D62A410B70003B5B93 /* ContactUs.swift */,
+				D679BCCB2A41B7EF008C767E /* Calculator.swift */,
+				D679BCCD2A41CD02008C767E /* ExcelPMT.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D639EF6E2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D639EF932A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkaraki" */;
+			buildPhases = (
+				D639EF6B2A406EBA00DA349F /* Sources */,
+				D639EF6C2A406EBA00DA349F /* Frameworks */,
+				D639EF6D2A406EBA00DA349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsfalistikoGrafeioGkaraki;
+			packageProductDependencies = (
+				D639EFA12A407BBF00DA349F /* Introspect */,
+			);
+			productName = AsfalistikoGrafeioGkaraki;
+			productReference = D639EF6F2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D639EF7E2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D639EF962A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkarakiTests" */;
+			buildPhases = (
+				D639EF7B2A406EBC00DA349F /* Sources */,
+				D639EF7C2A406EBC00DA349F /* Frameworks */,
+				D639EF7D2A406EBC00DA349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D639EF812A406EBC00DA349F /* PBXTargetDependency */,
+			);
+			name = AsfalistikoGrafeioGkarakiTests;
+			productName = AsfalistikoGrafeioGkarakiTests;
+			productReference = D639EF7F2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D639EF882A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D639EF992A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkarakiUITests" */;
+			buildPhases = (
+				D639EF852A406EBC00DA349F /* Sources */,
+				D639EF862A406EBC00DA349F /* Frameworks */,
+				D639EF872A406EBC00DA349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D639EF8B2A406EBC00DA349F /* PBXTargetDependency */,
+			);
+			name = AsfalistikoGrafeioGkarakiUITests;
+			productName = AsfalistikoGrafeioGkarakiUITests;
+			productReference = D639EF892A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D639EF672A406EBA00DA349F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D639EF6E2A406EBA00DA349F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D639EF7E2A406EBC00DA349F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D639EF6E2A406EBA00DA349F;
+					};
+					D639EF882A406EBC00DA349F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D639EF6E2A406EBA00DA349F;
+					};
+				};
+			};
+			buildConfigurationList = D639EF6A2A406EBA00DA349F /* Build configuration list for PBXProject "AsfalistikoGrafeioGkaraki" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D639EF662A406EBA00DA349F;
+			packageReferences = (
+				D639EFA02A407BBF00DA349F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
+			productRefGroup = D639EF702A406EBA00DA349F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D639EF6E2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */,
+				D639EF7E2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests */,
+				D639EF882A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D639EF6D2A406EBA00DA349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68B35792A42FF5900C66018 /* LaunchScreen.storyboard in Resources */,
+				D639EF7A2A406EBC00DA349F /* Preview Assets.xcassets in Resources */,
+				D639EF772A406EBC00DA349F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF7D2A406EBC00DA349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF872A406EBC00DA349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D639EF6B2A406EBA00DA349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639EFA92A408DAE00DA349F /* MyInteramerican.swift in Sources */,
+				D639EFAB2A408E6600DA349F /* Companies.swift in Sources */,
+				D61F86D72A410B70003B5B93 /* ContactUs.swift in Sources */,
+				D639EF9D2A40738E00DA349F /* HomeView.swift in Sources */,
+				D61F86D32A40F4F5003B5B93 /* AboutUs.swift in Sources */,
+				D679BCCC2A41B7EF008C767E /* Calculator.swift in Sources */,
+				D639EF752A406EBA00DA349F /* ContentView.swift in Sources */,
+				D639EF732A406EBA00DA349F /* AsfalistikoGrafeioGkarakiApp.swift in Sources */,
+				D639EFA52A408B3B00DA349F /* SwiftUIWebView.swift in Sources */,
+				D61F86D52A410942003B5B93 /* MapView.swift in Sources */,
+				D639EF9F2A40793F00DA349F /* SubMenu.swift in Sources */,
+				D679BCCE2A41CD02008C767E /* ExcelPMT.swift in Sources */,
+				D639EFA72A408C5500DA349F /* CheckInsurance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF7B2A406EBC00DA349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639EF842A406EBC00DA349F /* AsfalistikoGrafeioGkarakiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D639EF852A406EBC00DA349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639EF902A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITestsLaunchTests.swift in Sources */,
+				D639EF8E2A406EBC00DA349F /* AsfalistikoGrafeioGkarakiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D639EF812A406EBC00DA349F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D639EF6E2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */;
+			targetProxy = D639EF802A406EBC00DA349F /* PBXContainerItemProxy */;
+		};
+		D639EF8B2A406EBC00DA349F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D639EF6E2A406EBA00DA349F /* AsfalistikoGrafeioGkaraki */;
+			targetProxy = D639EF8A2A406EBC00DA349F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D639EF912A406EBC00DA349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D639EF922A406EBC00DA349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D639EF942A406EBC00DA349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsfalistikoGrafeioGkaraki/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkaraki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D639EF952A406EBC00DA349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsfalistikoGrafeioGkaraki/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkaraki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D639EF972A406EBC00DA349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkarakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsfalistikoGrafeioGkaraki.app/AsfalistikoGrafeioGkaraki";
+			};
+			name = Debug;
+		};
+		D639EF982A406EBC00DA349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkarakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsfalistikoGrafeioGkaraki.app/AsfalistikoGrafeioGkaraki";
+			};
+			name = Release;
+		};
+		D639EF9A2A406EBC00DA349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkarakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsfalistikoGrafeioGkaraki;
+			};
+			name = Debug;
+		};
+		D639EF9B2A406EBC00DA349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.AsfalistikoGrafeioGkarakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsfalistikoGrafeioGkaraki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D639EF6A2A406EBA00DA349F /* Build configuration list for PBXProject "AsfalistikoGrafeioGkaraki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D639EF912A406EBC00DA349F /* Debug */,
+				D639EF922A406EBC00DA349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D639EF932A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkaraki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D639EF942A406EBC00DA349F /* Debug */,
+				D639EF952A406EBC00DA349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D639EF962A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkarakiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D639EF972A406EBC00DA349F /* Debug */,
+				D639EF982A406EBC00DA349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D639EF992A406EBC00DA349F /* Build configuration list for PBXNativeTarget "AsfalistikoGrafeioGkarakiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D639EF9A2A406EBC00DA349F /* Debug */,
+				D639EF9B2A406EBC00DA349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D639EFA02A407BBF00DA349F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D639EFA12A407BBF00DA349F /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D639EFA02A407BBF00DA349F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D639EF672A406EBA00DA349F /* Project object */;
+}
